@@ -1,14 +1,29 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
-*.sln
+# Unreal Engine generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio
+.vs/
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Build files
+*.VC.db
+*.VC.opendb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unreal autosaves
+Content/Autosaves/
+
+# Logs
+*.log
